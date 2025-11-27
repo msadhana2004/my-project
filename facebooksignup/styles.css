@@ -1,0 +1,122 @@
+body, h1, h2, p {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-div {
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#logo {
+    font-size: 50px;
+    color: #0b66ff;
+    padding: 15px 0;
+}
+
+.signup-form {
+    background-color: #fff;
+    width: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-heading {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    padding-top: 6px;
+}
+
+.input-fields {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+input, select {
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 15px;
+}
+
+.half-width {
+    width: 48%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+label {
+    font-size: 12px;
+    color: #606770;
+    padding-bottom: 5px;
+    display: block;
+    width: 100%;
+}
+
+.dob {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.dual-width {
+    width: 30%;
+}
+
+.radio {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.radio-label {
+    font-size: 14px;
+}
+
+.radio-input {
+    width: auto;
+    margin-left: 10px;
+}
+
+small {
+    font-size: 11px;
+    color: #777;
+    display: block;
+    margin-top: 10px;
+}
+.button-div{
+    padding: 15px 0;
+}
+.sign-div{
+    border: 0;
+    background-color: green;
+    color: white;
+    padding: 10px 55px;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+.acc{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

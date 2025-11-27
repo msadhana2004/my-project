@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/calculator proj/styles.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <center>
+    <p>Calculator</p>
+   
+    <div class="calculator">
+
+        <h1>Calculator</h1>
+        <input type="text" id="display"/>
+        <div class="button">
+            <button onclick="clearDisplay()" class="bb">c</button>
+            <div class="button-wrap">
+                <button onclick="displayValue('7')"  class="bb">7</button>
+                <button onclick="displayValue('8')"  class="bb">8</button>
+                <button onclick="displayValue('9')"  class="bb">9</button>
+                <button  onclick="displayValue('0')" class="bb">0</button>
+                <button onclick="displayValue('/')"  class="bb">/</button>
+            </div>
+            <div class="button-wrap">
+                <button onclick="displayValue('6')" class="bb">6</button>
+                <button onclick="displayValue('5')"  class="bb">5</button>
+                <button onclick="displayValue('4')" class="bb">4</button>
+                <button onclick="displayValue('+')" class="bb">+</button>
+                <button onclick="displayValue('-')" class="bb">-</button>
+            </div>
+            <div class="button-wrap">
+                <button onclick="displayValue('1')" class="bb">1</button>
+                <button onclick="displayValue('2')" class="bb">2</button>
+                <button onclick="displayValue('3')" class="bb">3</button>
+                <button onclick="displayValue('*')" class="bb">*</button>
+                <button onclick="calculate('=')" class="bb">=</button>
+               
+            </div>
+        </div>
+    </div>
+    
+</center>
+</body>
+<script src="/calculator proj/main.js"></script>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Bliss</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+    }
+
+    header {
+      background-image: url('https://source.unsplash.com/1600x600/?coffee,cafe');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 8px #000;
+      font-size: 2.5rem;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    nav {
+      background-color: #a47148;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .menu-items {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .menu-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 200px;
+      padding: 20px;
+    }
+
+    .menu-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .menu-card h3 {
+      margin: 10px 0;
+      color: #a47148;
+    }
+
+    .about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .about img {
+      width: 90%;
+      max-width: 500px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background-color: #a47148;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background-color: #6b4f4f;
+    }
+
+    footer {
+      background-color: #6b4f4f;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Welcome to Cafe Bliss <br> A Taste of Joy in Every Sip
+  </header>
+
+  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact" onclick="showContact()">Contact</a>
+  </nav>
+
+  <section class="section" id="menu">
+    <h2>Our Specialties</h2>
+    <div class="menu-items">
+      <div class="menu-card">
+        <img src="https://source.unsplash.com/200x200/?espresso" alt="Espresso">
+        <h3>Espresso</h3>
+        <p>Strong and bold, a classic coffee shot.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://source.unsplash.com/200x200/?cappuccino" alt="Cappuccino">
+        <h3>Cappuccino</h3>
+        <p>Foamy, creamy, and comforting.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://source.unsplash.com/200x200/?muffin" alt="Muffin">
+        <h3>Chocolate Muffin</h3>
+        <p>Sweet and soft, perfect with coffee.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://source.unsplash.com/200x200/?iced-coffee" alt="Iced Latte">
+        <h3>Iced Latte</h3>
+        <p>Chilled coffee for hot days.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <h2>About Us</h2>
+    <img src="https://source.unsplash.com/500x300/?coffee-shop" alt="Cafe interior">
+    <p>
+      Cafe Bliss is a cozy, friendly space in the heart of Puducherry. We opened in 2019 with a dream to serve the perfect cup of coffee. Every sip is made from handpicked beans and every pastry is baked fresh in-house.
+    </p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> 123 Coffee Street, White Town, Puducherry</p>
+    <p><strong>Phone:</strong> +91 98765 43210</p>
+    <p><strong>Email:</strong> hello@cafebliss.com</p>
+    <p><strong>Hours:</strong> 8:00 AM – 9:00 PM (Every day)</p>
+  </section>
+
+  <footer>
+    © 2025 Cafe Bliss | Made with ❤️ by Sadhana Murugaiyan
+  </footer>
+
+  <script>
+    function showContact() {
+      alert("📞 Call us at: +91 98765 43210\n📍 Visit us: 123 Coffee Street, Puducherry");
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+p{
+   background-color: blue;
+   width: 500%;
+   height: 500px;
+}
+
+
+
+
+
+
+.calculator{
+    background-color: black;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+h1{
+    color: white;
+    
+}
+#display{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+.bb{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    margin-bottom: 10px;
+
+}
